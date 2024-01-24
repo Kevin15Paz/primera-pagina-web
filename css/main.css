@@ -1,0 +1,517 @@
+.bg-centro {
+    background-color: rgb(23, 32, 42);
+    color: #fff;
+}
+
+.bg-main {
+    background-color: rgb(52, 73, 94, 1);
+}
+
+.bg-header-card {
+    background: #900C3F;
+    color: #fff;
+}
+
+.direct {
+    background: url('/img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbo {
+    background: url('/img/ofimatica.jpg')top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 10em;
+    padding-bottom: 3em;
+}
+
+.iconos {
+    width: 160px;
+    height: 160px;
+    padding: 3px;
+}
+
+.iconos:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.cbt {
+    width: 430px;
+    height: 300px;
+    filter: grayscale(100%);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: 2s;
+}
+
+.cbt:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 2s;
+    filter: grayscale(0);
+}
+
+.servicios-img {}
+
+.servicios-img:hover {
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 2s;
+}
+
+.parallax {
+    width: 100%;
+    background-image: url("/img/fond.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    width: 100%;
+    background-image: url("/img/verdes1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    width: 100%;
+    background-image: url("/img/verdes2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    width: 100%;
+    background-image: url("/img/verdes3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax11 {
+    width: 100%;
+    background-image: url("/img/cancha1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax22 {
+    width: 100%;
+    background-image: url("/img/cancha2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax33 {
+    width: 100%;
+    background-image: url("/img/cancha3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax01 {
+    width: 100%;
+    background-image: url("/img/cafeteria1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax02 {
+    width: 100%;
+    background-image: url("/img/cafeteria2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax03 {
+    width: 100%;
+    background-image: url("/img/cafeteria3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax011 {
+    width: 100%;
+    background-image: url("/img/biblioteca1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax022 {
+    width: 100%;
+    background-image: url("/img/biblioteca2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax033 {
+    width: 100%;
+    background-image: url("/img/biblioteca3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax0111 {
+    width: 100%;
+    background-image: url("/img/lectura1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax0222 {
+    width: 100%;
+    background-image: url("/img/lectura2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax0333 {
+    width: 100%;
+    background-image: url("/img/lectura3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax111 {
+    width: 100%;
+    background-image: url("/img/auditorio1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax222 {
+    width: 100%;
+    background-image: url("/img/auditorio2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax333 {
+    width: 100%;
+    background-image: url("/img/auditorio3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#map {
+    margin: auto;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.bg-card {
+    background: rgba(46, 64, 83, .5);
+}
+
+.bg-card li a:hover,
+.bg-card li.active a {
+    color: #fff;
+    background: transparent;
+}
+
+.cabezera {
+    width: 100%;
+    height: auto;
+    background: #900C3F;
+    background-image: url('/img/fondofooter.jpg');
+    color: #fff;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+}
+
+.ir-arriba {
+    display: none;
+    background: #283747;
+    padding: 5px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    margin-bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.ir-arriba:hover {
+    background: #17202a;
+    color: white;
+}
+
+.organigrama * {
+    max-width: 100%;
+    align-content: center;
+}
+
+.organigrama ul {
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.organigrama li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 5px 0px 5px;
+    position: relative;
+}
+
+.organigrama li::before,
+.organigrama li::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    border-top: 2px solid #f80;
+    width: 50%;
+    height: 20px;
+}
+
+.organigrama li::after {
+    right: auto;
+    left: 50%;
+    border-left: 2px solid #f80;
+}
+
+.organigrama li:only-child::before,
+.organigrama li:only-child::after {
+    display: none;
+}
+
+.organigrama li:only-child {
+    padding-top: 0;
+}
+
+.organigrama li:first-child::before,
+.organigrama li:last-child::after {
+    border: 0 none;
+}
+
+.organigrama li:last-child::before {
+    border-right: 1px solid #f80;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+
+.organigrama li:first-child::after {
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+
+
+.organigrama ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #f80;
+    width: 0;
+    height: 20px;
+}
+
+
+
+.organigrama li a {
+    border: 2px solid #f80;
+    padding: 1em 0.75em;
+    text-decoration: none;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: arial, verdana, tahoma;
+    font-size: 0.85em;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.organigrama li a:hover {
+    border: 1px solid #fff;
+    color: #ddd;
+    background-color: rgba(255, 128, 0, 0.7);
+    display: inline-block;
+}
+
+.organigrama>ul>li>a {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.organigrama>ul>li>ul>li>a {
+    width: 8em;
+}
+
+
+.img {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.retraso2 {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.retraso3 {
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.retraso01 {
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+.header{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.header1{
+    margin-left: 180px;
+}
+.nav-beca{
+    padding-left: 10px;
+	padding-right: 10px;
+	float: none;
+	display: inline-block;
+}
+.becs{
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+    background: #C90551;
+}
+.bes{
+    color: #fff;
+}
+.sect{
+    padding-left: 180px;
+	padding-right: 100px;
+	padding-top: 0px;
+}
+.boton-redondo{
+	border-radius: 80px 80px 80px 80px;
+	-moz-border-radius: 80px 80px 80px 80px;
+	-webkit-border-radius: 80px 80px 80px 80px;
+	border: 1px solid;
+	color: #FFFFFF;
+    background-color:steelblue;
+}
+.btn1 {
+    font-weight: 900;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.sect1{
+    padding-left: 120px;
+	padding-right: 100px;
+	padding-top: 0px;
+}
+.parallaxx {
+    width: 100%;
+    background-image: url("/img/fond.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boton-redondo1{
+	border-radius: 80px 80px 80px 80px;
+	-moz-border-radius: 80px 80px 80px 80px;
+	-webkit-border-radius: 80px 80px 80px 80px;
+	border: 2px solid;
+	color: #FFFFFF;
+    background-color:steelblue;
+}
+.btn2 {
+    font-weight: 900;
+    height: 56px;
+    width: 150px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.sect2 {
+    padding-left: 120px;
+	padding-right: 100px;
+	padding-top: 0px;
+}

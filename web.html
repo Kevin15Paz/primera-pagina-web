@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/preloader.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/fontello.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <link rel="shortcut icon" href="/img/cbtisdget.png">
+    <title>Pagina Web</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Inicio preloader de la pagina web-->
+    <div id="loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <!-- Termina el preloader de la pagina web-->
+
+    <!-- Example Code -->
+    <div class="direct">
+        <nav class="navbar navbar-expand-lg sticky-top" id="menu" style="background-color: #900C3F;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/cbtisdget.png" alt="CBTis" style="width: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Navegación de palanca">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;" color="#FDFEFE"><span
+                                            class="icon-history"></span> Historia</font>
+                                </font>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="directivos.html">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;" color="#FDFEFE"><span
+                                            class="icon-graduation-cap"></span> Directivos</font>
+                                </font>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <font style="vertical-align: inherit;" color="#FDFEFE">
+                                    <font style="vertical-align: inherit;">
+                                        <span class="icon-book"></span> Especialidades
+                                    </font>
+                                </font>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/especialidades/ofimatica.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-laptop"></span>
+                                                Ofimática</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/especialidades/administracion.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-chart-line"></span>
+                                                Administración</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/especialidades/contruccion.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-wrench-4"></span>
+                                                Contrucción</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/especialidades/contabilidad.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-calculator"></span>
+                                                Contabilidad</font>
+                                        </font>
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <font style="vertical-align: inherit;" color="#FDFEFE">
+                                    <font style="vertical-align: inherit;">
+                                        <span class="icon-bank"></span> Instalaciones
+                                    </font>
+                                </font>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/instalaciones/cafeteria.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-cafe"></span>
+                                                Cafetería</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/instalaciones/biblioteca.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-library"></span>
+                                                Biblioteca</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/instalaciones/areas_verdes.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-leaf"></span> Áreas
+                                                Verdes</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/instalaciones/areas_deportivas.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span
+                                                    class="icon-soccer-ball"></span>
+                                                Áreas
+                                                Deportivas</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/instalaciones/salon_lectura.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-book-open"></span>
+                                                Salón
+                                                de Lectura</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/instalaciones/auditorio.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-town-hall"></span>
+                                                Auditorio
+                                            </font>
+                                        </font>
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <font style="vertical-align: inherit;" color="#FDFEFE">
+                                    <font style="vertical-align: inherit;">
+                                        <span class="icon-cog-alt"></span>Ver más
+                                    </font>
+                                </font>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/ver_mas/calendario.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-calendar-7"></span>
+                                                Calendario
+                                            </font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/ver_mas/ubicacion.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-direction"></span>
+                                                Ubicación
+                                            </font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="/ver_mas/becas.html">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span
+                                                    class="icon-money-2"></span>
+                                                Becas</font>
+                                        </font>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;"><span class="icon-lock-6"></span>
+                                                Cerrar
+                                                Sesión</font>
+                                        </font>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/eventos.html">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;" color="#FDFEFE"><span
+                                            class="icon-calendar-empty"></span> Eventos</font>
+                                </font>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/Cbtis204/?locale=es_LA">
+                            <i class="icon-facebook" style="color: aliceblue;"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="icon-bell" style="color: aliceblue;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--termina barra de navegacion-->
+        <!--Inicia el Slider-->
+
+        <div id="slider" class="carousel slide">
+            <!--Elementos con las lineas o puntos de navegación-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide3"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/administracionwn.jpg" class="d-block w-100" alt="Slider1" style="height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: #900C3F;">Administración de Recursos Humanos</h5>
+                        <p style="color: black;">Al concluir tu bachillerato tendrás todos los conocimientos
+                            relacionados
+                            con la <br>administración de unidades económicas y recursos humanos de una empresa.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/construccion.jpg" class="d-block w-100" alt="Slider2" style="height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: #900C3F;">Construcción</h5>
+                        <p style="color: black;">Con estos conocimientos y habilidades, podrás desempeñar funciones
+                            en proyectos <br>y diseños de casas habitación, edificaciones de centros comerciales y
+                            fábricas.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/contabilidad.jpg" class="d-block w-100" alt="Slider3" style="height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: #900C3F;">Contabilidad</h5>
+                        <p style="color: black;">Al terminar tus estudios, estarás capacitado para manejar sistemas
+                            contables y <br>financieros relacionados con auditorías, costos, presupuestos y aspectos
+                            fiscales.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/ofii.jpg" class="d-block w-100" alt="Slider4" style="height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: #900C3F; ">Ofimática</h5>
+                        <p style="color:white;">Te ofrece las competencias que te permitan realizar actividades
+                            dirigidas
+                            a obtener y gestionar <br>información de manera digital, mediante el uso eficaz y eficiente
+                            de
+                            los recursos informáticos.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Flechas del slider-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+        </div>
+        <!--Termina es Slider-->
+
+        <!--boton hacia arriba-->
+        <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+            <span class="fa-stack">
+                <i class="icon-up-big"></i>
+            </span>
+        </a>
+        <!--termina boton hacia arriba-->
+
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text text-center"> </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-3">
+            <div class="row">
+                <div class="col aling-middle">
+                    <!-- Inicia nuestra tarjeta de servicios-->
+                    <div class="card shadow p-3 mb-5 bg-white rounded direct" style="width: 18rem;" data-aos="fade-right">
+                        <div class="card-header bg-header-card" style="text-align: center;">
+                            <b> Misión </b>
+                        </div><br>
+                        <center><a href="#"><img src="/img/mision.jpg" class="card-img-top servicios-img"
+                                    alt="Posicionamiento seo" style="max-width: 250px;"></a></center>
+                        <div class="card-body">
+                            <p class="card-text" align="justify">Formar personas con conocimientos tecnológicos en las
+                                áreas
+                                industrial,
+                                comercial y de servicios, a través de la preparación de bachilleres y profesionales
+                                técnicos,
+                                con el fin de contribuir al desarrollo sustentable del país.</p>
+                        </div>
+                    </div>
+                    <!-- Termina primera card-->
+                </div>
+                <div class="col aling-middle">
+                    <!-- Inicia nuestra tarjeta de servicios-->
+                    <div class="card shadow p-3 mb-5 bg-white rounded direct" style="width: 18rem;" data-aos="zoom-in">
+                        <div class="card-header bg-header-card" style="text-align: center;">
+                            <b>Visión</b>
+                        </div>
+                        <center><a href="#"><br><img src="/img/vision.jpg" class="card-img-top servicios-img"
+                                    alt="Posicionamiento seo" style="max-width: 180px;"></a></center>
+                        <div class="card-body">
+                            <p class="card-text" align="justify">Ser una institución de educación media superior
+                                certificada,
+                                orientada al aprendizaje y desarrollo de conocimientos tecnológicos y humanísticos.</p>
+                        </div>
+                    </div>
+                    <!-- Termina segunda card-->
+                </div>
+                <div class="col aling-middle">
+                    <!-- Inicia nuestra tarjeta de servicios-->
+                    <div class="card shadow p-3 mb-5 bg-white rounded direct" style="width: 18rem;" data-aos="fade-left">
+                        <div class="card-header bg-header-card" style="text-align: center;">
+                            <b>Objetivo</b>
+                        </div><br>
+                        <center><a href="#"><img src="/img/cbt1.jpg" class="card-img-top servicios-img"
+                                    alt="Posicionamiento seo" style="max-width: 250px; "></a></center>
+                        <div class="card-body">
+                            <p class="card-text" align="justify">Contribuir al acceso, cobertura y calidad que establece
+                                el
+                                Programa Sectorial de Educación 2019-2025 de Educación Media Superior, con la eficacia
+                                de
+                                los
+                                recursos humanos, de infraestructura, equipamiento e involucramiento con los que cuenta
+                                el
+                                Centro de Bachillerato Tecnológico Industrial y de Servicios no. 204.</p>
+                        </div>
+                    </div>
+                    <!-- Termina tercera card-->
+                </div>
+
+            </div>
+        </div>
+        <!-- termina seccion servicios-->
+
+        <!-- inicia parallax -->
+        <section id="parallax">
+            <div class="jumbotron parallax">
+                <div class="container-lg">
+                    <h3 class="text-center text-light">Sitios de Interés Educacional</h3>
+                </div>
+                <div class="container text-center">
+                    <div class="row py-4">
+                        <!-- caja de iconos -->
+                        <div class="col-sm" data-aos="zoom-in">
+                            <div class="container">
+                                <a href="https://cbtis204.edu20.org/"><img src="/img/edu2.0.jpg" alt="iconos"
+                                        class="iconos mx-auto d-block"></a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm" data-aos="zoom-in">
+                            <div class="container">
+                                <a href="https://es.duolingo.com/"><img src="/img/duolingo.png" alt="iconos"
+                                        class="iconos mx-auto d-block"></a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm" data-aos="zoom-in">
+                            <div class="container">
+                                <a href="https://www.edmodo.com/?language=es"><img src="/img/edmodo.jpg" alt="iconos"
+                                        class="iconos mx-auto d-block"></a>
+
+                            </div>
+                        </div>
+                        <!-- termina caja de iconos -->
+                    </div>
+                    <div class="row py-4">
+                        <!-- caja de iconos -->
+                        <div class="col-sm" data-aos="zoom-in">
+                            <div class="container">
+                                <a href="https://es.khanacademy.org/"><img src="/img/khan.png" alt="iconos"
+                                        class="iconos mx-auto d-block"></a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm" data-aos="zoom-in">
+                            <div class="container">
+                                <a href="https://www.geogebra.org/"><img src="/img/geogebra.png" alt="iconos"
+                                        class="iconos mx-auto d-block"></a>
+
+                            </div>
+                        </div>
+                        <!-- termina caja de iconos -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- termina parallax -->
+        
+        
+        <br>
+        <!-- Inicia iconos de sitios-->
+        <div class="container py-4 direct">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text text-center"> Sitios de interés </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container direct">
+            <div class="row">
+                <div class="col-sm" data-aos="flip-up">
+                    <div class="container">
+                        <a href="http://www.construye-t.org.mx/"><img src="/img/construye.jpg" alt="iconos"
+                                class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Construye T</h5>
+                    </div>
+                </div>
+                <div class="col-sm" data-aos="flip-down">
+                    <div class="container">
+                        <a href="https://www.youtube.com/user/canalsep/videos"><img src="/img/sigue_estudiando.jpg"
+                                alt="iconos" class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Sigue Estudiando</h5>
+                    </div>
+                </div>
+                <div class="col-sm" data-aos="flip-up">
+                    <div class="container">
+                        <a href="http://intrasep.sep.gob.mx/om/dgp/proyectos/Paginas/codigoconducta.aspx"><img
+                                src="/img/acoso_sexual.jpg" alt="iconos" class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Acoso sexual</h5>
+                    </div>
+                </div>
+                <div class="col-sm" data-aos="flip-down">
+                    <div class="container">
+                        <a href="http://www.decidetusestudios.sep.gob.mx/"><img src="/img/decide_futuro.png"
+                                alt="iconos" class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Decide tu futuro</h5>
+                    </div>
+                </div>
+                <div class="col-sm" data-aos="flip-up">
+                    <div class="container">
+                        <a href="http://www.fomentoalalectura.sems.gob.mx/"><img src="/img/jovenes_lectores.jpg"
+                                alt="iconos" class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Jovenes Lectores</h5>
+                    </div>
+                </div>
+                <div class="col-sm" data-aos="flip-down">
+                    <div class="container">
+                        <a href="http://www.tuprepaenvideos.sep.gob.mx/"><img src="/img/tu_prepa.png" alt="iconos"
+                                class="iconos mx-auto d-block"></a>
+                        <h5 class="text-center py-2">Tu prepa en Videos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Termina iconos-->
+
+        <br>
+        <!-- inicia jumbotron-->
+        <div class="jumbotron jumbo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 btn-holder"></div>
+                    <div class="col-sm-6">
+                        <h1 class="text-light"><b> Comentarios </b></h1>
+                        <p class="text-justify text-light" style="text-align: justify; font-size: 19px;">
+                            <b> La escuela es importante porque, enriquece nuestro
+                                intelecto aumentando nuestro potencial, autocrítico, cognitivo, intelectual y valorativo
+                                además de reflexivo. Adquiriendo con él, conocimientos nuevos y junto con ello de la
+                                mano,
+                                también con los valores éticos y morales, lo que define a la persona sin duda de ello,
+                                siempre con autonomía y liderazgo. </b>
+                        </p>
+                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact"> Realiza tu
+                            comentario
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- termina jumbotron-->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-group" action="https://formsubmit.co/kevs872@gmail.com" method="POST">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" placeholder="Nombre Completo"
+                                        aria-label="Nombre Completo" required>
+                                </div>
+                                <div class="col">
+                                    <input type="telefono" name="telefono" class="form-control" placeholder="Telefono"
+                                        aria-label="Telefono" required>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" name="email" class="form-control" placeholder="Email"
+                                        aria-label="Email" required>
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="subject" class="form-control" placeholder="Asunto"
+                                        aria-label="Asunto" required>
+                                </div>
+                            </div><br>
+                            <div class="container">
+                                <div class="row">
+                                    <textarea name="comments" rows="8" cols="80" placeholder="Mensaje"
+                                        required></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                <input type="submit" value="Enviar">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5501/web.html">
+                                <input type="hidden" name="_captcha" value="false">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- Inicia seccion de portafolio -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col col-sm-12 col-md-6 col-lg-6"><br><br>
+                    <center><img src="/img/cbtis.png" class="img-fluid cbt" alt="cbtis"></center>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-6">
+                    <!-- Inicia acordeon -->
+                    <!--<div class="accordion" id="Portafolio">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-header-card" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#Portafolio">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                        <li class="list-group-item">A fourth item</li>
+                                        <li class="list-group-item">And a fifth one</li>
+                                    </ul>
+                                    <!-- Inicia slider de imagnes web -->
+                                    <!--<div id="carouselweb" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/img/cbt1.jpg" class="d-block w-100" alt="Slider1">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/img/bg.jpg" class="d-block w-100" alt="Slider2">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/img/cbt1.jpg" class="d-block w-100" alt="Slider3">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselweb" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Anterior</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselweb" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Siguiente</span>
+                                        </button>
+                                    </div>
+                                    <!-- termina slider de imagenes web -->
+                                <!--</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-header-card" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#Portafolio">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-header-card" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#Portafolio">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Termina acordeon -->
+                <!--</div>
+            </div>
+        </div> -->
+
+
+        <!-- inicia el mapa -->
+        <!-- <section id="contacto">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-sm-6 col-md-6 col-lg-12">
+                        <div class="card shadow p-3 mb-5 bg-white rounded">
+                            <div class="card-body">
+                                <form action="" class="form-group" method="post">
+                                    <div class="py-2">
+                                        <input type="text" name="nombre" class="form-control" placeholder="Nombre"
+                                            required>
+                                    </div>
+                                    <div class="py-2">
+                                        <input type="email" name="email" class="form-control" placeholder="Email"
+                                            required>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <label class="input-group-text">Satisfecho con la Página</label>
+                                        </div>
+
+                                        <select class="custom-select" name="servicio">
+                                            <option selected> Selecciona opción</option>
+                                            <option value="1">Excelente</option>
+                                            <option value="2">Bien</option>
+                                            <option value="3">Mal</option>
+                                            <option value="4">Muy Mal</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <input type="submit" name="submit" value="Enviar"
+                                        class="btn btn-primary btn-lg btn-block">
+                                </form>
+                                <p class="text-left"><span class="icon-phone"></span> Teléfono: <a href="tel:55555555">
+                                        55-55-55-55</a></p>
+                                <p class="text-left"><span class="icon-email"></span> Email: <a
+                                        href="mailto:contacto@gatech.mx"> contacto@gatech.mx</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <br>
+        <!-- termina el mapa -->
+        <!-- inicia footer-->
+        <footer class="bg-card">
+            <div class="footer-copyright text-center py-3 cabezera">
+                <div class="container">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col text-center">
+                            <a class="btn btn-holder nav-item" data-bs-toggle="collapse" href="#footer" role="button"
+                                aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <span class="icon-down-open text-light"> Abrir</span></a>
+                            <div class="row">
+                                <div class="col"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="footer">
+                        <div class="cabezera">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <p class="text-center text-white" style="font-size: 20px;"><span class="icon-link-5"></span> Enlaces
+                                        </p>
+                                        <ul class="list-group list-group-flush" style="text-align: left;">
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://participa.gob.mx" target="-blank">Participa
+                                                </a>
+                                            </li>
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/publicaciones" target="-blank"> Publicaciones
+                                                    Oficiales</a></li>
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="http://www.ordenjuridico.gob.mx" target="-blank"> Marco
+                                                    Jurídico</a></li>
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="-blank">
+                                                    Plataforma Nacional de Transparencia</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm">
+                                        <p class="text-center text-white" style="font-size: 20px;"> ¿Qué es
+                                            gob.mx?
+                                        </p>
+                                        <ul class="list-group list-group-flush" style="text-align: left;">
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/que-es-gobmx" target="-blank"> Leer más</a>
+                                            </li>
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://datos.gob.mx" target="-blank"> Portal de
+                                                    datos abiertos</a></li>
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/accesibilidad" target="-blank">
+                                                    Declaraciones</a></li>
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/privacidadintegral" target="-blank"> Aviso de
+                                                    privacidad integral</a></li>
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/privacidadsimplificado" target="-blank"> Aviso de
+                                                    privacidad simplificado</a></li>
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/terminos" target="-blank"> Términos y
+                                                    Condiciones</a></li>
+                                            <li class=" text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion" target="-blank"> Política de
+                                                    seguridad</a></li>
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/sitemap" target="-blank"> Mapa de
+                                                    sitio</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm">
+                                        <!-- <p class="text-center text-white"><span class="icon-map-o"></span> 
+                                        </p> -->
+                                        <ul class="list-group list-group-flush" style="text-align: left;">
+                                            <li class="text-left cabezera" style="list-style: none;"><span
+                                                    class="icon-angle-double-right"></span><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54" target="-blank"> Denuncia
+                                                    contra servidores públicos</a></li>
+                                            <br>
+                                            <center><img
+                                                    src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg"
+                                                    alt="logo" class="logo"></center>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-light">@2023 copyright: CBTis 204</p>
+                </div>
+            </div>
+        </footer>
+        <!-- termina footer-->
+        <!-- termina seccion de portafolio -->
+    </div>
+    <!-- Termina el contenido de la web-->
+    <!--<script src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.0838509290425!2d-100.1824936309103!3d19.794041844855677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x3d2cc49ac03c70f2!2sCBTIS+No.+204!5e0!3m2!1ses-419!2smx!4v1429149165101"></script>-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script src="/js/bootstrap.min.js"></script>-->
+    <script src="/js/preloader.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
